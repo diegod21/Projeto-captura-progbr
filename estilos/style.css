@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: lightpink;
+}
+main{
+    height: 600px;
+    background-color: lightcoral;
+    background-image: url('../imagens/people.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+div.conteudo{
+    transform: translate(-50% );
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 230px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    
+    
+}
+div#form{
+    text-align: center;
+   
+}
+div#form  > p{
+    padding: 10px;
+}
+footer{
+    background-color: gray;
+}
+footer img{
+    max-width: 60px;
+}
