@@ -64,20 +64,20 @@ button{
     color: white;
 }
 footer{
-    background-color: gray;
+    background-color: #202121;
 }
-footer p , h1{
+div.description{
     color: white;
-    padding: 13px;
+    padding: 15px;
 }
 
-footer img{
-    display: inline-block;
-    margin-top: 10px;
-    max-width: 100%;
+.pic{
+   max-width: 160px;
+    
 }
-div#image{
-    width: 50vw;
+.cell{
+    max-width: 160px;
     margin: auto;
-   
+    padding: 30px;
 }
+

@@ -1,8 +1,25 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width:992px){
- div.conteudo{
-    margin-left: 70%;
+   footer{
+      background-color: #202121;
+      padding: 40px;
+      text-align: center;
+  }
+ .cell{
+   display: inline-block;
  }
- 
+  .pic{
+      max-width: 160px;
+  }
+  .description{
+      display: inline-block;
+      max-width: 40%;
+      margin-left: 40px;
+      color: white;
+      text-align: left;
+  }
+  .description p , .description h3{
+      margin-bottom: 15px;
+  }
 }
