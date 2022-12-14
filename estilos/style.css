@@ -10,6 +10,9 @@ body{
 nav{
     background-color:  rgb(0, 155, 155);
     text-align: center;
+    color: white;
+    position:sticky;
+    top: 0px;
 }
 main{
     height: 600px;
@@ -32,7 +35,7 @@ div.conteudo{
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.685);
     width: 230px;
-    height: 400px;
+    height: 450px;
     margin-top: 50px;
     margin-left: 50%;
     border-radius: 10px;
@@ -48,20 +51,19 @@ div#form{
 div#form  > p{
     padding: 8px;
 }
-div#form  input{
-    width: 90%;
-    height: 30px;
-}
-select#ies{
-    width: 90%;
-    height: 30px;
-}
-button{
-    width: 90%;
-    height: 30px;
-    background-color: rgb(0, 155, 155);
+
+input , select{
+    width: 100%;
+    box-sizing: border-box;
     border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    font-weight: bold;
     color: white;
+    background-color:  rgb(0, 155, 155);
 }
 footer{
     background-color: #202121;
